@@ -1,0 +1,81 @@
+@charset "utf-8";
+ 
+/* css reset */
+div,span,body{margin:0;padding:0}
+ 
+#wrap{clear:both;float:left;width:100%;}
+#container{clear:both;width:800px;_border:1px solid black;margin:3% auto}
+#container h1{clear:both;float:left;width:100%;text-align:center;color:black}
+#container h1 a{color:black;text-decoration:none}
+.line{clear:both;float:left;width:100%;border:1px solid black;margin-bottom:3%}
+.line p{float:left;min-width:100px;margin-left:3%;color:blackf}
+.line .inputArea{float:left; margin-left: 10px}
+.line .inputArea input{float:left;width:370px;height:30px;margin:10px 0 0 0;padding-left:10px}
+.submit{clear:both;float:left;width:100%;height:50px;background:#fff;border:0;font-size:20px;color:white; background-color: #068053;}
+
+#main_header { 
+       
+    background: #068053;
+    border: 1px solid #999999; 
+    padding: 10px; 
+    text-align: center;
+    color:white;
+    overflow: hidden;
+}
+.userEL4506626 {
+    position: relative;
+    padding: 26px 0px 20px 0px;
+    background-color: ;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    color: ;
+    font-family: Raleway, "Nanum Gothic";
+    font-size: 12px;
+   }
+   .userEL4506626 h3.head_title {
+    text-decoration:none; 
+    font-family: 'Lato', 'Nanum Gothic';
+    font-size: inherit;
+    font-weight: normal;
+    font-color: white;    
+    margin-top: 0;
+    margin-bottom: 18px;
+    
+    
+   }
+   .userEL4506626 h3.head_title .menu{
+   text-decoration:none; 
+   color: #333;                             
+   display-color:red;     
+   width:25%;                      
+   text-align: center;
+   float: left;
+    
+   } 
+   .userEL4506626 h3.head_title .menu:hover{
+    background-color: #808080;  
+   } 
+   
+   .userEL4506626 h3.head_title strong {
+    font-weight: 800;
+   }
+   .userEL4506626 hr {
+    border-bottom: 2px solid #333;
+    border-radius: 2px;
+    border-top: 2px solid #333;
+    margin: 0 auto; 
+   } 
+   
+   
+   @media only screen and (max-width:991px) {
+    .userEL4506626 h3.head_title {
+     margin-bottom: 14.4px;
+    }
+   }
+   @media only screen and (max-width:767px) {
+    .userEL4506626 h3.head_title {
+     margin-bottom: 9px;
+    }
+   }
