@@ -1,0 +1,77 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="write.css">
+	<meta charset="utf-8">
+	<title>YouView</title>
+</head>
+<body>
+
+  <form action="show_review.php" method="post">
+
+<div id="main_header">
+<p align="right"><a href="login.hmtl" style="color:#F6F6F6;text-decoration:none">로그인</a>&nbsp;<a href="join.html" style="color:#F6F6F6;text-decoration:none">회원가입</a></p>
+<header>
+   <h1> YouView </h1>
+</header>
+</div>
+
+<div class="userEL4506626">
+ <div class="container full-width">
+  <div class="row">
+
+ 
+  </div>
+ </div>
+</div>
+	<div id="review_main">
+		채널: <input type="text" name="ChannelName" id="ChannelName"><p>
+		이름: <input type="text" name="NickName" id="nickname" maxlength=10><p>
+		제목: <input type="text" name="Title" id="title"><p>
+		내용: <textarea placeholder="리뷰 내용을 입력하세요" name="Content"  id="Content"></textarea><p>
+		태그: <input type="text" name="tag_one" id="tag_one" maxlength=10><input type="text" name="tag_two" id="tag_two" maxlength=10><input type="text" name="tag_three" id="tag_three" maxlength=10>
+	</div>
+
+	<table id="star">
+	<tr><th>완성도</th>
+		<th><select name="star_one">
+			<option value="five" selected="selected">★★★★★</option>
+			<option value="four">★★★★</option>
+			<option value="three">★★★</option>
+			<option value="two">★★</option>
+			<option value="one">★</option>
+		</select></th></tr>
+	<tr><th>윤리</th>
+		<th><select name="star_two">
+			<option value="five" selected="selected">★★★★★</option>
+			<option value="four" >★★★★</option>
+			<option value="three" >★★★</option>
+			<option value="two">★★</option>
+			<option value="one">★</option>
+		</select></th></tr>
+	<tr><th>흥미</th>
+		<th><select name="star_three">
+			<option value="five" selected="selected">★★★★★</option>
+			<option value="four">★★★★</option>
+			<option value="three">★★★</option>
+			<option value="two">★★</option>
+			<option value="one">★</option>
+		</select></th></tr>
+	<tr><th>신뢰도</th>
+		<th><select name="star_four">
+			<option value="five" selected="selected">★★★★★</option>
+			<option value="four">★★★★</option>
+			<option value="three">★★★</option>
+			<option value="two">★★</option>
+			<option value="one">★</option>
+		</select></th></tr>
+	</table>
+
+	<div class="register">
+		<input type="submit" id="register_button" value="등록">
+	</div>
+
+</form>
+</body>
+
+</html>
