@@ -1,65 +1,7 @@
-<style>
-body{
-margin: auto;
-}
-
-#chaVi{
-max-width: 1000px;
-width: auto;
-margin: auto;
-}
-
-.chaVi_instance{
-border:8px;
-border-style:groove;
-padding: 20px;
-}
-
-#chaVi_search{
-height:40px;
-width:400px;
-border:1px solid #068053;
-background:#ffffff;
-margin: auto;
-}
-#chaVi_input{
-font-size:16px;
-width:325px;
-padding:10px;
-border:0px;
-outline:none;
-float:left;
-}
-#chaVi_button{
-width:50px;
-height:100%;
-border:0px;
-background:#068053;
-outline:none;
-float:right;
-color:#ffffff
-}
-#chaVi_section {
-float: left;
-max-width: 900px;
-width: 86%;
-margin: 20px auto;
-display: inline-block;
-}
-
-#chaVi_aside{
-float: left;
-max-width: 100px;
-min-width: 70px;
-width: 10%;
-margin: 20px auto;
-padding: 20px;
-background: #068053;
-text-align:left;
-color:white;
-}
-
+ <style>
+ 
 .userEL4506626 {
+
  position: relative;
  padding: 26px 0px 20px 0px;
  background-color: ;
@@ -72,13 +14,15 @@ color:white;
  font-size: 12px;
 }
 #main_header { 
+       
        background: #068053;
        border: 1px solid #999999; 
        padding: 10px; 
        text-align: center;
        color:white;
+       
 }
- 
+
 .userEL4506626 h3.head_title {
  text-decoration:none; 
  font-family: 'Lato', 'Nanum Gothic';
@@ -97,6 +41,7 @@ display-color:red;
 width:25%;                      
 text-align: center;
 float: left;
+ 
 } 
 .userEL4506626 h3.head_title .menu:hover{
  background-color: #808080;  
@@ -110,7 +55,51 @@ float: left;
  border-radius: 2px;
  border-top: 2px solid #333;
  margin: 0 auto; 
-}
+}  
+ 
+  
+     
+      body {
+        font-family: 맑은 고딕;
+        font-family: 12px;
+      }
+      table {
+        width: 70%;
+        height:100px;
+        margin:auto;
+        text-align:center;
+      }
+      th, td {
+        padding: 10px;
+        border-bottom: 1px solid #dadada;
+      }
+ .mainT tbody td:hover {background:#F3F5BB}
+     
+     img{
+        width:100px;
+        height:100px;
+      }
+   thead{
+     border-bottom: 0px;
+     background-color:#00462A;
+     color:white;
+     }
+     .noBordertable{ border-bottom: 0px;}
+     .Submit{
+        background-color:#068053;
+        width:120px; 
+        height:40px;  
+        border:0;
+        outline:0;
+        color:#fff;
+      }      
+   .Submit:hover{
+    background-color:#fff;
+    border:1px solid green;
+    font-weight:bold;
+    color:#068053; 
+   }
+  
 @media only screen and (max-width:991px) {
  .userEL4506626 h3.head_title {
   margin-bottom: 14.4px;
