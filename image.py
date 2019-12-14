@@ -17,10 +17,12 @@ cur.execute("USE YouView")
  
 img_names = soup.find_all('img')
 try:
+    num=-4
     for img in img_names:
+        num=num+1
         a=  img.get('data-src')
         b=str(a)
-        cur.execute("INSERT INTO image_view VALUES (%s)",b)
+        cur.execute("INSERT INTO image_view VALUES (%s,%s)",(num,b))
         conn.commit() 
         print(b)
     
