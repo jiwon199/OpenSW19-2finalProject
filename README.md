@@ -33,3 +33,8 @@ CREATE TABLE image_view(
   img varchar(500) NOT NULL 
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 입니다 
+
+12월 17일 커밋내용
+필요없어진 파일들,내가 맡지 않은 부분들 제거
+완전히 달라진 채널부분 새로 올리고, 동영상부분 추가 
+
