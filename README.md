@@ -37,4 +37,6 @@ CREATE TABLE image_view(
 12월 17일 커밋내용
 필요없어진 파일들,내가 맡지 않은 부분들 제거
 완전히 달라진 채널부분 새로 올리고, 동영상부분 추가 
+channels.php와 channels.php ,video.php와 video2.php 작업함 
+channels_specific.php파일은, channels.php에서 db의 어떤 테이블, 몇번째에 등록된 채널인지 정보를 넘기고 이를 기반으로 channels_specific에 필요 변수를 생성하는 것까지 하고 미완인 채로 파일 넘김.
 
