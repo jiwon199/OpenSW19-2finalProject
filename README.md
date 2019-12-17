@@ -20,3 +20,6 @@ review_search_result2.php는 로그인이 된 상태로 리뷰 페이지에서 �
 
 write_review.html는 리뷰를 작성하는 창입니다. 사용자가 작성해야하는 부분은 1.채널 이름 2.리뷰 제목 3.리뷰 내용 4.태그 5.별점이고 
 1,2,3을 작성하지 않을 경우 칸을 모두 채우라는 경고창이 화면에 뜹니다.
+
+review db 구축
+CREATE TABLE reviews( channelName char(50) NOT NULL , NickName CHAR(20) NOT NULL ,  Title text NOT NULL , Content text NOT NULL , date datetime NOT NULL , star_one tinyint(4) NOT NULL , star_two tinyint(4) NOT NULL , star_three tinyint(4) NOT NULL , star_four tinyint(4) NOT NULL , star_avg tinyint(4) NOT NULL , tag_one char(10) , tag_two char(10) , tag_three char(10) );
