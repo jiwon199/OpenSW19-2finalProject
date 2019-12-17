@@ -20,7 +20,7 @@
 					<section id="main">
 						<header>
 							<span class="avatar"><img src="images2/youtube2.png" alt="" /></span>
-							<h1><a href="홈.php" style="text-decoration:none">YouView</a></h1>
+							<h1><a href="home.php" style="text-decoration:none">YouView</a></h1>
 							<p>join membership</p>
 						<form name="signUp" action="memberSave.php" method="post" onsubmit="return checkSubmit()">
 							<div class="fields">
